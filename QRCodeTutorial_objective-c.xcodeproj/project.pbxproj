@@ -7,28 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C77865B1A991797B5DDE4AB /* Pods_QRCodeTutorial_objective_c.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDEABA2E4E052385E46F355 /* Pods_QRCodeTutorial_objective_c.framework */; };
 		76E86CEF27C3A3B5000CC1EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E86CEE27C3A3B5000CC1EF /* AppDelegate.m */; };
 		76E86CF227C3A3B5000CC1EF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E86CF127C3A3B5000CC1EF /* SceneDelegate.m */; };
-		76E86CF527C3A3B5000CC1EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E86CF427C3A3B5000CC1EF /* ViewController.m */; };
+		76E86CF527C3A3B5000CC1EF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E86CF427C3A3B5000CC1EF /* MainViewController.m */; };
 		76E86CF827C3A3B5000CC1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E86CF627C3A3B5000CC1EF /* Main.storyboard */; };
 		76E86CFA27C3A3B8000CC1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E86CF927C3A3B8000CC1EF /* Assets.xcassets */; };
 		76E86CFD27C3A3B8000CC1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E86CFB27C3A3B8000CC1EF /* LaunchScreen.storyboard */; };
 		76E86D0027C3A3B8000CC1EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E86CFF27C3A3B8000CC1EF /* main.m */; };
+		76E86D0827C3B005000CC1EF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E86D0727C3B005000CC1EF /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EDEABA2E4E052385E46F355 /* Pods_QRCodeTutorial_objective_c.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeTutorial_objective_c.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4091046933FD0E6E9460C779 /* Pods-QRCodeTutorial_objective-c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeTutorial_objective-c.release.xcconfig"; path = "Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c.release.xcconfig"; sourceTree = "<group>"; };
+		768337068166ADB8623B1189 /* Pods-QRCodeTutorial_objective-c.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeTutorial_objective-c.debug.xcconfig"; path = "Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c.debug.xcconfig"; sourceTree = "<group>"; };
 		76E86CEA27C3A3B4000CC1EF /* QRCodeTutorial_objective-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRCodeTutorial_objective-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E86CED27C3A3B5000CC1EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76E86CEE27C3A3B5000CC1EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		76E86CF027C3A3B5000CC1EF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		76E86CF127C3A3B5000CC1EF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		76E86CF327C3A3B5000CC1EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		76E86CF427C3A3B5000CC1EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76E86CF327C3A3B5000CC1EF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		76E86CF427C3A3B5000CC1EF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		76E86CF727C3A3B5000CC1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76E86CF927C3A3B8000CC1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76E86CFC27C3A3B8000CC1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76E86CFE27C3A3B8000CC1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76E86CFF27C3A3B8000CC1EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76E86D0727C3B005000CC1EF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E86D0827C3B005000CC1EF /* WebKit.framework in Frameworks */,
+				2C77865B1A991797B5DDE4AB /* Pods_QRCodeTutorial_objective_c.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +55,8 @@
 			children = (
 				76E86CEC27C3A3B4000CC1EF /* QRCodeTutorial_objective-c */,
 				76E86CEB27C3A3B4000CC1EF /* Products */,
+				76E86D0627C3B005000CC1EF /* Frameworks */,
+				C8846DC7C3D0B520ABBDC301 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +75,8 @@
 				76E86CEE27C3A3B5000CC1EF /* AppDelegate.m */,
 				76E86CF027C3A3B5000CC1EF /* SceneDelegate.h */,
 				76E86CF127C3A3B5000CC1EF /* SceneDelegate.m */,
-				76E86CF327C3A3B5000CC1EF /* ViewController.h */,
-				76E86CF427C3A3B5000CC1EF /* ViewController.m */,
+				76E86CF327C3A3B5000CC1EF /* MainViewController.h */,
+				76E86CF427C3A3B5000CC1EF /* MainViewController.m */,
 				76E86CF627C3A3B5000CC1EF /* Main.storyboard */,
 				76E86CF927C3A3B8000CC1EF /* Assets.xcassets */,
 				76E86CFB27C3A3B8000CC1EF /* LaunchScreen.storyboard */,
@@ -76,6 +86,25 @@
 			path = "QRCodeTutorial_objective-c";
 			sourceTree = "<group>";
 		};
+		76E86D0627C3B005000CC1EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76E86D0727C3B005000CC1EF /* WebKit.framework */,
+				3EDEABA2E4E052385E46F355 /* Pods_QRCodeTutorial_objective_c.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8846DC7C3D0B520ABBDC301 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				768337068166ADB8623B1189 /* Pods-QRCodeTutorial_objective-c.debug.xcconfig */,
+				4091046933FD0E6E9460C779 /* Pods-QRCodeTutorial_objective-c.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76E86D0327C3A3B8000CC1EF /* Build configuration list for PBXNativeTarget "QRCodeTutorial_objective-c" */;
 			buildPhases = (
+				E0EEB711C6D809293AC9EC23 /* [CP] Check Pods Manifest.lock */,
 				76E86CE627C3A3B4000CC1EF /* Sources */,
 				76E86CE727C3A3B4000CC1EF /* Frameworks */,
 				76E86CE827C3A3B4000CC1EF /* Resources */,
+				D06221EC2E8DFD6A9AD04D55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,12 +172,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D06221EC2E8DFD6A9AD04D55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0EEB711C6D809293AC9EC23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRCodeTutorial_objective-c-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76E86CE627C3A3B4000CC1EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E86CF527C3A3B5000CC1EF /* ViewController.m in Sources */,
+				76E86CF527C3A3B5000CC1EF /* MainViewController.m in Sources */,
 				76E86CEF27C3A3B5000CC1EF /* AppDelegate.m in Sources */,
 				76E86D0027C3A3B8000CC1EF /* main.m in Sources */,
 				76E86CF227C3A3B5000CC1EF /* SceneDelegate.m in Sources */,
@@ -289,6 +362,7 @@
 		};
 		76E86D0427C3A3B8000CC1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768337068166ADB8623B1189 /* Pods-QRCodeTutorial_objective-c.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +391,7 @@
 		};
 		76E86D0527C3A3B8000CC1EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4091046933FD0E6E9460C779 /* Pods-QRCodeTutorial_objective-c.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,6 +405,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
