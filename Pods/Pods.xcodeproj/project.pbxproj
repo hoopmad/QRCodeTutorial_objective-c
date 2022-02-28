@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059BDF7F4551AFC3F779DFC2A70B64C0 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD305A053FD6B60C0219CEC8DEE6F48 /* QRCodeReaderViewController.m */; };
+		15AF1CA25E59A7DA5AC8947095876D9A /* Pods-QRCodeTutorial_objective-c-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEA23E635BA67A9293CC2045CEAAE26 /* Pods-QRCodeTutorial_objective-c-dummy.m */; };
+		375C9F4361E6379ABCAA1BC6BEF7E980 /* QRToggleTorchButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5FBCD891FC83EA79D37707C962A24A /* QRToggleTorchButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5508278AA950A03B6C6328B47F426886 /* QRCameraSwitchButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C61D3D21D88DEDD397746CD6041798DC /* QRCameraSwitchButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7024F4974A155770D0112949968E6696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */; };
+		85A9639421A59B09E5AE77B3866EB71C /* QRCodeReaderViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE503909546064F5E5D1AB754DF687 /* QRCodeReaderViewController-dummy.m */; };
+		86753350BF4B4A7000667E308EE0F95C /* QRToggleTorchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F486B1C68027FC435271D4D5C8A8CFB /* QRToggleTorchButton.m */; };
+		9D5BB40EA7BB4590B569E3D0A090CAFF /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A103A0BE2BD9DCB765938F42B2A56868 /* QRCameraSwitchButton.m */; };
+		9EBD36F1E3E5549544703F64FE1CD787 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */; };
+		9EF7E9309270525C5301BFD4263EFA53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */; };
+		A47005AE4D7ED01269CC023C3DF748D5 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A56FCA858B6089889A00A3612017394 /* QRCodeReader.m */; };
+		AAFCA034FB03134A4757946D6FCD7187 /* QRCodeReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = B34D3556F4A76258ACA2CCDC7C5CD464 /* QRCodeReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD495466822850C7998D437ED3C6FC0C /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B982A161262C6154E4A74E181FCB645E /* QRCodeReaderView.m */; };
+		AEE24E1625D39300E309E3001FBE64FE /* QRCodeReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6994DDA66A6A4DFACF5B41FB898AEC /* QRCodeReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF3E65BDC3578F00D0FF225F6D1ACD5 /* QRCodeReaderViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5720EFA4766B9F7AD9516AEC59F9D74D /* QRCodeReaderViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC68EF4C9DC090FAD1ACE6A697E30BC4 /* Pods-QRCodeTutorial_objective-c-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF38AF9329735D83D93BAC187DFEA6F2 /* Pods-QRCodeTutorial_objective-c-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA307761AF76178A25A03196EE3A3218 /* QRCodeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0835A9D1DF3C2DA7A5A158173ABCFE4A /* QRCodeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E58665A6BB3B7AF54662F17A2ACD07C2 /* QRCodeReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D51C0F3A34D27DD264753C7F0A7DE805 /* QRCodeReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E475E1D20299A5ABD7BDEAFED29DBFFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8FC4FD750AC24CAD841A7FB89CA76C6;
+			remoteInfo = QRCodeReaderViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0835A9D1DF3C2DA7A5A158173ABCFE4A /* QRCodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeReader.h; path = QRCodeReaderViewController/QRCodeReader.h; sourceTree = "<group>"; };
+		0B6994DDA66A6A4DFACF5B41FB898AEC /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeReaderViewController.h; path = QRCodeReaderViewController/QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		0C60F1B18EF77455567E85ECF68FFB9B /* QRCodeReaderViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReaderViewController.release.xcconfig; sourceTree = "<group>"; };
+		0F5FBCD891FC83EA79D37707C962A24A /* QRToggleTorchButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRToggleTorchButton.h; path = QRCodeReaderViewController/QRToggleTorchButton.h; sourceTree = "<group>"; };
+		108DCB98117CCDE1D52676485A02B55F /* Pods-QRCodeTutorial_objective-c */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QRCodeTutorial_objective-c"; path = Pods_QRCodeTutorial_objective_c.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D3493BA2620AAECED1B6BCF4268D38 /* QRCodeReaderViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReaderViewController.modulemap; sourceTree = "<group>"; };
+		1FD305A053FD6B60C0219CEC8DEE6F48 /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeReaderViewController.m; path = QRCodeReaderViewController/QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		208BF17123178348B701A5A9FD107F52 /* Pods-QRCodeTutorial_objective-c-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRCodeTutorial_objective-c-acknowledgements.plist"; sourceTree = "<group>"; };
+		2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CDB8C0FB21BCECBDEA461125D77B45D /* Pods-QRCodeTutorial_objective-c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCodeTutorial_objective-c.release.xcconfig"; sourceTree = "<group>"; };
+		4F486B1C68027FC435271D4D5C8A8CFB /* QRToggleTorchButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRToggleTorchButton.m; path = QRCodeReaderViewController/QRToggleTorchButton.m; sourceTree = "<group>"; };
+		523D1C1BCA02BBC6ECACECC1A9A15A93 /* QRCodeReaderViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReaderViewController.debug.xcconfig; sourceTree = "<group>"; };
+		5720EFA4766B9F7AD9516AEC59F9D74D /* QRCodeReaderViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReaderViewController-umbrella.h"; sourceTree = "<group>"; };
+		632F90F1288EF5B3F003BBE28440F3E0 /* Pods-QRCodeTutorial_objective-c.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCodeTutorial_objective-c.debug.xcconfig"; sourceTree = "<group>"; };
+		804FB522F27173B277BB7709358887A3 /* Pods-QRCodeTutorial_objective-c-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRCodeTutorial_objective-c-Info.plist"; sourceTree = "<group>"; };
+		81F1165CDB2CA80A95DD837806A9B5F7 /* QRCodeReaderViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCodeReaderViewController-Info.plist"; sourceTree = "<group>"; };
+		8A56FCA858B6089889A00A3612017394 /* QRCodeReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeReader.m; path = QRCodeReaderViewController/QRCodeReader.m; sourceTree = "<group>"; };
+		9BDE503909546064F5E5D1AB754DF687 /* QRCodeReaderViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReaderViewController-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A103A0BE2BD9DCB765938F42B2A56868 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCameraSwitchButton.m; path = QRCodeReaderViewController/QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		A5E23EFA49B8ADDA65F90361E9098763 /* Pods-QRCodeTutorial_objective-c-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRCodeTutorial_objective-c-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA2A838E0A13356CA069F0289E6C4D27 /* QRCodeReaderViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReaderViewController-prefix.pch"; sourceTree = "<group>"; };
+		B34D3556F4A76258ACA2CCDC7C5CD464 /* QRCodeReaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeReaderView.h; path = QRCodeReaderViewController/QRCodeReaderView.h; sourceTree = "<group>"; };
+		B982A161262C6154E4A74E181FCB645E /* QRCodeReaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeReaderView.m; path = QRCodeReaderViewController/QRCodeReaderView.m; sourceTree = "<group>"; };
+		BFEF3C425A8BA14ADC38AF16C48C9920 /* Pods-QRCodeTutorial_objective-c-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRCodeTutorial_objective-c-frameworks.sh"; sourceTree = "<group>"; };
+		C5181F768198603CE48737DD6BAFB878 /* QRCodeReaderViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReaderViewController; path = QRCodeReaderViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61D3D21D88DEDD397746CD6041798DC /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCameraSwitchButton.h; path = QRCodeReaderViewController/QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		D51C0F3A34D27DD264753C7F0A7DE805 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeReaderDelegate.h; path = QRCodeReaderViewController/QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		DF38AF9329735D83D93BAC187DFEA6F2 /* Pods-QRCodeTutorial_objective-c-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QRCodeTutorial_objective-c-umbrella.h"; sourceTree = "<group>"; };
+		DFF9279F39A07CAF64A993B0115ADF51 /* Pods-QRCodeTutorial_objective-c.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QRCodeTutorial_objective-c.modulemap"; sourceTree = "<group>"; };
+		FBEA23E635BA67A9293CC2045CEAAE26 /* Pods-QRCodeTutorial_objective-c-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRCodeTutorial_objective-c-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BD85BCC0718584153716A1F0249AFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7024F4974A155770D0112949968E6696 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B9805195C465D81208B4BC9731CAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBD36F1E3E5549544703F64FE1CD787 /* AVFoundation.framework in Frameworks */,
+				9EF7E9309270525C5301BFD4263EFA53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1089650329B16202B98E999E423159BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108DCB98117CCDE1D52676485A02B55F /* Pods-QRCodeTutorial_objective-c */,
+				C5181F768198603CE48737DD6BAFB878 /* QRCodeReaderViewController */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA13D49ADE69D79D70A8B79AAAC38DE9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FEB977CA806A21AA74026E1C4213773 /* Pods-QRCodeTutorial_objective-c */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9279F39A07CAF64A993B0115ADF51 /* Pods-QRCodeTutorial_objective-c.modulemap */,
+				A5E23EFA49B8ADDA65F90361E9098763 /* Pods-QRCodeTutorial_objective-c-acknowledgements.markdown */,
+				208BF17123178348B701A5A9FD107F52 /* Pods-QRCodeTutorial_objective-c-acknowledgements.plist */,
+				FBEA23E635BA67A9293CC2045CEAAE26 /* Pods-QRCodeTutorial_objective-c-dummy.m */,
+				BFEF3C425A8BA14ADC38AF16C48C9920 /* Pods-QRCodeTutorial_objective-c-frameworks.sh */,
+				804FB522F27173B277BB7709358887A3 /* Pods-QRCodeTutorial_objective-c-Info.plist */,
+				DF38AF9329735D83D93BAC187DFEA6F2 /* Pods-QRCodeTutorial_objective-c-umbrella.h */,
+				632F90F1288EF5B3F003BBE28440F3E0 /* Pods-QRCodeTutorial_objective-c.debug.xcconfig */,
+				3CDB8C0FB21BCECBDEA461125D77B45D /* Pods-QRCodeTutorial_objective-c.release.xcconfig */,
+			);
+			name = "Pods-QRCodeTutorial_objective-c";
+			path = "Target Support Files/Pods-QRCodeTutorial_objective-c";
+			sourceTree = "<group>";
+		};
+		8422A7318066F9AEF8963B57A9180EB7 /* QRCodeReaderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C61D3D21D88DEDD397746CD6041798DC /* QRCameraSwitchButton.h */,
+				A103A0BE2BD9DCB765938F42B2A56868 /* QRCameraSwitchButton.m */,
+				0835A9D1DF3C2DA7A5A158173ABCFE4A /* QRCodeReader.h */,
+				8A56FCA858B6089889A00A3612017394 /* QRCodeReader.m */,
+				D51C0F3A34D27DD264753C7F0A7DE805 /* QRCodeReaderDelegate.h */,
+				B34D3556F4A76258ACA2CCDC7C5CD464 /* QRCodeReaderView.h */,
+				B982A161262C6154E4A74E181FCB645E /* QRCodeReaderView.m */,
+				0B6994DDA66A6A4DFACF5B41FB898AEC /* QRCodeReaderViewController.h */,
+				1FD305A053FD6B60C0219CEC8DEE6F48 /* QRCodeReaderViewController.m */,
+				0F5FBCD891FC83EA79D37707C962A24A /* QRToggleTorchButton.h */,
+				4F486B1C68027FC435271D4D5C8A8CFB /* QRToggleTorchButton.m */,
+				923DF5A5B0A396BD4E6E016179B8DC85 /* Support Files */,
+			);
+			name = QRCodeReaderViewController;
+			path = QRCodeReaderViewController;
+			sourceTree = "<group>";
+		};
+		923DF5A5B0A396BD4E6E016179B8DC85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15D3493BA2620AAECED1B6BCF4268D38 /* QRCodeReaderViewController.modulemap */,
+				9BDE503909546064F5E5D1AB754DF687 /* QRCodeReaderViewController-dummy.m */,
+				81F1165CDB2CA80A95DD837806A9B5F7 /* QRCodeReaderViewController-Info.plist */,
+				AA2A838E0A13356CA069F0289E6C4D27 /* QRCodeReaderViewController-prefix.pch */,
+				5720EFA4766B9F7AD9516AEC59F9D74D /* QRCodeReaderViewController-umbrella.h */,
+				523D1C1BCA02BBC6ECACECC1A9A15A93 /* QRCodeReaderViewController.debug.xcconfig */,
+				0C60F1B18EF77455567E85ECF68FFB9B /* QRCodeReaderViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCodeReaderViewController";
+			sourceTree = "<group>";
+		};
+		CA13D49ADE69D79D70A8B79AAAC38DE9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */,
+				2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DA90EC3E702A9B7A43AA7D7B5D80D985 /* Pods */,
+				1089650329B16202B98E999E423159BF /* Products */,
+				F6230010CCACF41905E5BF43F9BFAC3C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA90EC3E702A9B7A43AA7D7B5D80D985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8422A7318066F9AEF8963B57A9180EB7 /* QRCodeReaderViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6230010CCACF41905E5BF43F9BFAC3C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FEB977CA806A21AA74026E1C4213773 /* Pods-QRCodeTutorial_objective-c */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D062612BC5FC7A94D8CD09B9087EC1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC68EF4C9DC090FAD1ACE6A697E30BC4 /* Pods-QRCodeTutorial_objective-c-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174A957738541EAB17D68C0D17FB512C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5508278AA950A03B6C6328B47F426886 /* QRCameraSwitchButton.h in Headers */,
+				DA307761AF76178A25A03196EE3A3218 /* QRCodeReader.h in Headers */,
+				E58665A6BB3B7AF54662F17A2ACD07C2 /* QRCodeReaderDelegate.h in Headers */,
+				AAFCA034FB03134A4757946D6FCD7187 /* QRCodeReaderView.h in Headers */,
+				AEE24E1625D39300E309E3001FBE64FE /* QRCodeReaderViewController.h in Headers */,
+				CBF3E65BDC3578F00D0FF225F6D1ACD5 /* QRCodeReaderViewController-umbrella.h in Headers */,
+				375C9F4361E6379ABCAA1BC6BEF7E980 /* QRToggleTorchButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C8FC4FD750AC24CAD841A7FB89CA76C6 /* QRCodeReaderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A088688A8FB56B8A984993559EEB32 /* Build configuration list for PBXNativeTarget "QRCodeReaderViewController" */;
+			buildPhases = (
+				174A957738541EAB17D68C0D17FB512C /* Headers */,
+				0F5BA9D02F50214DA10439BD6C8750E0 /* Sources */,
+				F2B9805195C465D81208B4BC9731CAB7 /* Frameworks */,
+				397BADD89FEE79864401BBD78F942214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeReaderViewController;
+			productName = QRCodeReaderViewController;
+			productReference = C5181F768198603CE48737DD6BAFB878 /* QRCodeReaderViewController */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC740C54B5493BD9C5EBDFF79B26ADCB /* Pods-QRCodeTutorial_objective-c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EF317CEE4FC581A552ABF102B91406 /* Build configuration list for PBXNativeTarget "Pods-QRCodeTutorial_objective-c" */;
+			buildPhases = (
+				0D062612BC5FC7A94D8CD09B9087EC1C /* Headers */,
+				E0092EBDCEDB8FD18B820F483B050F5E /* Sources */,
+				0BD85BCC0718584153716A1F0249AFA7 /* Frameworks */,
+				2A81E3C95190319DC08A4178320DFE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D909158E3E0A96FE8AC08D269EFC6073 /* PBXTargetDependency */,
+			);
+			name = "Pods-QRCodeTutorial_objective-c";
+			productName = Pods_QRCodeTutorial_objective_c;
+			productReference = 108DCB98117CCDE1D52676485A02B55F /* Pods-QRCodeTutorial_objective-c */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1089650329B16202B98E999E423159BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC740C54B5493BD9C5EBDFF79B26ADCB /* Pods-QRCodeTutorial_objective-c */,
+				C8FC4FD750AC24CAD841A7FB89CA76C6 /* QRCodeReaderViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A81E3C95190319DC08A4178320DFE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BADD89FEE79864401BBD78F942214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F5BA9D02F50214DA10439BD6C8750E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5BB40EA7BB4590B569E3D0A090CAFF /* QRCameraSwitchButton.m in Sources */,
+				A47005AE4D7ED01269CC023C3DF748D5 /* QRCodeReader.m in Sources */,
+				AD495466822850C7998D437ED3C6FC0C /* QRCodeReaderView.m in Sources */,
+				059BDF7F4551AFC3F779DFC2A70B64C0 /* QRCodeReaderViewController.m in Sources */,
+				85A9639421A59B09E5AE77B3866EB71C /* QRCodeReaderViewController-dummy.m in Sources */,
+				86753350BF4B4A7000667E308EE0F95C /* QRToggleTorchButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0092EBDCEDB8FD18B820F483B050F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AF1CA25E59A7DA5AC8947095876D9A /* Pods-QRCodeTutorial_objective-c-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D909158E3E0A96FE8AC08D269EFC6073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReaderViewController;
+			target = C8FC4FD750AC24CAD841A7FB89CA76C6 /* QRCodeReaderViewController */;
+			targetProxy = E475E1D20299A5ABD7BDEAFED29DBFFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28D9F9F160665678459C339D7189EE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C60F1B18EF77455567E85ECF68FFB9B /* QRCodeReaderViewController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReaderViewController/QRCodeReaderViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReaderViewController/QRCodeReaderViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QRCodeReaderViewController/QRCodeReaderViewController.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReaderViewController;
+				PRODUCT_NAME = QRCodeReaderViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E18B24D146D8A9345A90C45194DEE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A27DD2E60EBC06537158DC422BC93958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523D1C1BCA02BBC6ECACECC1A9A15A93 /* QRCodeReaderViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReaderViewController/QRCodeReaderViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReaderViewController/QRCodeReaderViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QRCodeReaderViewController/QRCodeReaderViewController.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReaderViewController;
+				PRODUCT_NAME = QRCodeReaderViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C000E6F2DA7D749707AD013E31A2CD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632F90F1288EF5B3F003BBE28440F3E0 /* Pods-QRCodeTutorial_objective-c.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5A441B8FEDA43916BB38E1171B9B88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDB8C0FB21BCECBDEA461125D77B45D /* Pods-QRCodeTutorial_objective-c.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRCodeTutorial_objective-c/Pods-QRCodeTutorial_objective-c.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDE13D2DD3F94A79B5CE4331571BDFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A088688A8FB56B8A984993559EEB32 /* Build configuration list for PBXNativeTarget "QRCodeReaderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DD2E60EBC06537158DC422BC93958 /* Debug */,
+				28D9F9F160665678459C339D7189EE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E18B24D146D8A9345A90C45194DEE4F /* Debug */,
+				EDE13D2DD3F94A79B5CE4331571BDFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EF317CEE4FC581A552ABF102B91406 /* Build configuration list for PBXNativeTarget "Pods-QRCodeTutorial_objective-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C000E6F2DA7D749707AD013E31A2CD3E /* Debug */,
+				C5A441B8FEDA43916BB38E1171B9B88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
